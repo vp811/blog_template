@@ -146,7 +146,7 @@ header h3 {
 .posts {
     border: solid 3px black;
     margin: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
     background-color: #ebebeb;
 }
 
@@ -191,9 +191,11 @@ header h3 {
 #more {
     background-color: #000000;
     padding: 3%;
+    float: right;
+    margin-right: 3%;
 }
 
-#more a {
+a#more {
     font-size: 1.2em;
     color: #00ff9c;
     font-family: 'title', 'title2', serif;
@@ -216,6 +218,7 @@ header h3 {
     color: white;
     font-family: 'title', 'title2',  sans-serif;
     text-align: center;
+    text-decoration: underline;
 }
 
 .widget-top ul,
@@ -226,8 +229,9 @@ header h3 {
 }
 
 .widget-top li a,
-.widget-middle li a, {
+.widget-middle li a {
     color: #2a3430;
+    text-decoration: none;
 }
 
 .widget-bottom{
