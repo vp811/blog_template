@@ -1,2 +1,3 @@
-<h3>Sidebar Header</h3>
-<p>this is the sidebar content</p>
+<?php dynamic_sidebar('sidebar-one'); ?>
+<?php dynamic_sidebar('sidebar-two'); ?>
+<?php dynamic_sidebar('sidebar-three'); ?>

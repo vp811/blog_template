@@ -53,6 +53,7 @@ header h1 {
 
 header h1 a {
     color: #00ff9c;
+    text-decoration: none;
 }
 
 header h1 a:hover {
@@ -65,11 +66,6 @@ header h3{
     font-family: 'title', 'title2', serif;
     text-align: center;
     padding-top: 4%;
-}
-
-header h4{
-    font-size: 1.5rem;
-    color: #00ff9c;
 }
 
 #header-menu {
@@ -91,6 +87,7 @@ header h4{
     margin-top: 3%;
     border: solid 3px #00ff9c;
     margin-left: 15%;
+    padding: 3%;
 }
 
 .widget-left h2 {
@@ -100,15 +97,6 @@ header h4{
 
 .widget-right {
     padding-top: 10%;
-}
-h5{
-    font-size: 1.2rem
-}
-
-a{
-    color: #red;
-    font-weight: 700;
-    text-decoration: none;
 }
 
 /*--- Menu --- */
@@ -146,4 +134,77 @@ a{
 	color: #00ff9c;
     padding-bottom: 3px;
     border-bottom: solid 2px #00ff9c;
+}
+
+/*------------------------Sidebar------------*/
+.widget-top,
+.widget-middle,
+.widget-bottom {
+    border: 3px solid black;
+    margin-top: 30%;
+}
+
+.widget-top h6,
+.widget-middle h6,
+.widget-bottom h6 {
+    background-color: #2a3430;
+    color: white;
+    font-family: 'title', 'title2',  sans-serif;
+    text-align: center;
+}
+
+.widget-top ul,
+.widget-middle ul,
+.widget-bottom form {
+    padding-left: 10%;
+    margin-bottom: 0;
+}
+
+/*-------------Footer-----------*/
+footer {
+    background-color: #00ff9c;
+    height: 350px;
+    padding-top: 10%;
+}
+
+footer h1 {
+    font-family: 'header', 'header2', sans-serif;
+    font-size: 3.0em;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: .8;
+}
+
+footer h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+footer h1 a:hover {
+    color: #ffffff;
+}
+
+footer h3{
+    font-size: 1.0em;
+    color: #000000;
+    font-family: 'title', 'title2', serif;
+    text-align: center;
+    padding-top: 4%;
+}
+
+footer form {
+    text-align: center;
+}
+
+footer .blank-menu-header {
+    background-color: transparent;
+}
+footer .blank-menu-header ul li a:hover {
+	color: white;
+}
+footer h5 {
+    text-align: center;
+    font-family: 'title', 'title2', serif;
+    font-size: 1.0em;
+    margin-top: 3%;
 }
