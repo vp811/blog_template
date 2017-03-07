@@ -10,7 +10,6 @@
     " />
 </head>
 <body>
-    <div class="container"> <!-- Begin Header Div -->
         <header class="row">
             <div class="three columns">
                 <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
@@ -21,7 +20,7 @@
                 <h3><?php bloginfo('description'); ?></h3>
             </div>
 
-            <div class="three columns">
+            <div class="three columns" id="socialmedia">
                 <?php dynamic_sidebar('header-two'); ?>
             </div>
 
@@ -38,10 +37,12 @@
             </div>
 
             <div class = "row">
-                <div class="four columns" id="welcome">
+                <div class="three columns">
+                </div>
+                <div class="three columns">
                         <?php dynamic_sidebar('header-one'); ?>
                 </div>
-                <div class="eight columns" id="welcome">
+                <div class="six columns">
                 </div>
             </div>
 
