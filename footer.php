@@ -31,7 +31,6 @@
             </div>
         </footer>
 
-    </div><!-- End Footer Div-->
     <?php wp_footer(); ?>
 </body>
 </html>
