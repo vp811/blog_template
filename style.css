@@ -1,0 +1,149 @@
+/*
+Theme Name: Efren Vasquez Blog Theme
+Theme URI:
+Author: Efren Vasquez
+Description: Blank theme for WIE Blog
+Version: 0.1
+License: Open
+Text Domain: efren_vasquez_blank_template
+*/
+
+@import url("stylesheets/normalize.css");
+@import url("stylesheets/skeleton.css");
+/*---------Fonts-------------*/
+
+@font-face {
+    font-family: 'header';
+    src: url(font/planet.otf);
+}
+
+@font-face {
+    font-family: 'header2';
+    src: url(font/planet.woff);
+}
+
+@font-face {
+    font-family: 'title';
+    src: url(font/biting.ttf);
+}
+
+@font-face {
+    font-family: 'title2';
+    src: url(font/biting.woff);
+}
+
+html, body{
+	color: #000000;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+
+/*----------------Header style--------------*/
+header {
+    padding-top: 1%;
+    background-color: #000000;
+}
+header h1 {
+    font-family: 'header', 'header2', sans-serif;
+    font-size: 4.0em;
+    padding-left: 15%;
+    margin-bottom: 0;
+}
+
+header h1 a {
+    color: #00ff9c;
+}
+
+header h1 a:hover {
+    color: #ffffff;
+}
+
+header h3{
+    font-size: 1.5em;
+    color: #00ff9c;
+    font-family: 'title', 'title2', serif;
+    text-align: center;
+    padding-top: 4%;
+}
+
+header h4{
+    font-size: 1.5rem;
+    color: #00ff9c;
+}
+
+#header-menu {
+    background-image: url(img/headercode.png);
+    background-repeat: none;
+    height: 100%;
+}
+
+#nav {
+    background-color: white;
+
+}
+#id-padding {
+    height: 200px;
+}
+
+.widget-left {
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 3%;
+    border: solid 3px #00ff9c;
+    margin-left: 15%;
+}
+
+.widget-left h2 {
+    font-size: 2.0em;
+    font-family: 'title', 'title2', serif;
+}
+
+.widget-right {
+    padding-top: 10%;
+}
+h5{
+    font-size: 1.2rem
+}
+
+a{
+    color: #red;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/*--- Menu --- */
+
+.blank-menu-header {
+	text-align: center;
+	margin-top: .5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 1% 0%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.blank-menu-header ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+.blank-menu-header li {
+	display: inline;
+    border-left: solid 3px black;
+    padding: 0% 7%;
+}
+.blank-menu-header li:first-child{
+    border-left: none;
+}
+.blank-menu-header ul li a {
+	text-decoration:none;
+	font-size: 1.1rem;
+    font-family: 'title', 'title2',  sans-serif;
+    color: #2a3430;
+}
+.blank-menu-header ul li a:hover {
+	color: #00ff9c;
+    padding-bottom: 3px;
+    border-bottom: solid 2px #00ff9c;
+}
