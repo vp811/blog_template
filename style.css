@@ -37,8 +37,6 @@ html, body{
 	font-size: 14px;
 	line-height: 16px;
 }
-
-
 /*----------------Header style--------------*/
 header {
     padding-top: 1%;
@@ -97,9 +95,16 @@ header h3 {
 }
 
 .widget-right {
-    padding-top: 0%;
+    margin-top: 8%;
 }
 
+.sfsi_plus_widget {
+    background-color: black;
+    width: 55%;
+    border-radius: 10px;
+    padding-bottom: 0%;
+    height: 30px;
+}
 /*--- Menu --- */
 
 .blank-menu-header {
@@ -220,10 +225,18 @@ header h3 {
     margin-bottom: 0;
 }
 
+.widget-top li a,
+.widget-middle li a, {
+    color: #2a3430;
+}
+
+.widget-bottom{
+    margin-bottom: 30%;
+}
 /*-------------Footer-----------*/
 footer {
     background-color: #00ff9c;
-    height: 350px;
+    height: 370px;
     padding-top: 10%;
 }
 
@@ -250,6 +263,7 @@ footer h3{
     font-family: 'title', 'title2', serif;
     text-align: center;
     padding-top: 4%;
+    letter-spacing: 6px;
 }
 
 footer form {

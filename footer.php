@@ -1,14 +1,10 @@
         <footer>
             <div class="row">
-                <div class="six columns">
+                <div class="twelve columns">
                         <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
                             <?php bloginfo('name'); ?></a></h1>
                         <h3><?php bloginfo('description'); ?></h3>
                     <?php dynamic_sidebar('footer-one'); ?>
-                </div>
-
-                <div class="six columns">
-                    <?php dynamic_sidebar('footer-two'); ?>
                 </div>
             </div>
 
