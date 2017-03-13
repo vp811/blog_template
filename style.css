@@ -429,7 +429,7 @@ a#morepostspage:hover {
 /*-------------Footer-----------*/
 footer {
     background-color: #00ff9c;
-    height: 390px;
+    height: auto;
     padding-top: 10%;
 }
 
