@@ -24,7 +24,7 @@ Text Domain: efren_vasquez_blank_template
 
 @font-face {
     font-family: 'title';
-    src: url(font/biting.ttf);
+    src: url(font/share.ttf);
 }
 
 @font-face {
@@ -59,7 +59,7 @@ header h1 a:hover {
 }
 
 header h3 {
-    font-size: 1.5em;
+    font-size: 2.0em;
     color: #00ff9c;
     font-family: 'title', 'title2', serif;
     text-align: center;
@@ -130,6 +130,12 @@ header h3 {
 .blank-menu-header li:first-child{
     border-left: none;
 }
+.blank-menu-header ul li:hover {
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .blank-menu-header ul li a {
 	text-decoration:none;
 	font-size: 1.1rem;
@@ -137,10 +143,10 @@ header h3 {
     color: #2a3430;
 }
 .blank-menu-header ul li a:hover {
-	color: #00ff9c;
-    padding-bottom: 3px;
-    border-bottom: solid 2px #00ff9c;
+    color: #00ff9c;
 }
+
+
 
 /*------------------------Posts Body------------*/
 .posts {
@@ -158,13 +164,14 @@ header h3 {
     font-family: 'title', 'title2',  sans-serif;
     padding-left: 5%;
     display: inline;
+    font-size: 5.0em;
 }
 .background-post h4 {
-    font-family: 'title', 'title2',  sans-serif;
-    font-size: 1.0em;
+    font-family: 'title', 'title2', sans-serif;
+    font-size: 1.5em;
     letter-spacing: 1px;
     display: inline-block;
-    width: 40%;
+    width: 56%;
     text-align: right;
 }
 
@@ -183,9 +190,10 @@ header h3 {
 }
 
 .posts p {
-    padding: 5%;
+    padding: 4%;
     background-color: white;
     margin: 3%;
+    border: solid 3px black;
 }
 
 #more {
@@ -202,6 +210,137 @@ a#more {
     text-decoration: none;
 }
 
+a#more:hover {
+    color: #000000;
+    background-color: #00ff9c;
+}
+
+/*------------------------Single Page---------*/
+#about {
+    margin-top: 4%;
+    padding-left: 7%;
+}
+
+#about h3 {
+    font-family: 'title', 'title2', serif;
+}
+#about p{
+    margin-bottom: 0.7rem;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+/*------------------------Posts Page---------*/
+#posts {
+    margin-top: 2%;
+    padding-left: 7%;
+    margin-bottom: 10%;
+}
+#posts h2 {
+    font-family: 'title', 'title2', serif;
+    text-decoration: underline;
+}
+#posts h3{
+    font-family: 'title', 'title2', serif;
+    font-size: 2.5em;
+}
+
+#posts a {
+    color: black;
+    text-decoration: none;
+}
+
+/*------------------------Posts Page---------*/
+#individual {
+    border: solid black 3px;
+    padding: 3% 3% 9% 3%;
+    margin-bottom: 5%;
+}
+
+#individual h3 {
+    display: inline-block;
+}
+#individual h4 {
+    font-family: 'title', 'title2', serif;
+    font-size: 1.5em;
+    display: inline;
+    float: right;
+    margin-right: 4%;
+}
+
+#individual p {
+    padding: 0 0 0 4%;
+}
+#morepostspage {
+    background-color: #00ff9c;
+    padding: 2%;
+    float: right;
+    margin-right: 3%;
+}
+
+a#morepostspage {
+    font-size: 1.2em;
+    color: #000000;
+    font-family: 'title', 'title2', serif;
+    text-decoration: none;
+}
+
+a#morepostspage:hover {
+    color: #00ff9c;
+    background-color: #000000;
+}
+/*------------------------Individual Posts Page------------*/
+.post-thumbnail {
+    margin: 6% 0;
+    text-align: center;
+}
+
+.post-thumbnail img {
+    border: solid black 5px;
+}
+
+.individual-post {
+    padding: 5%;
+}
+
+.individual-post h2 {
+    font-family: 'title', 'title2', serif;
+    text-decoration: underline;
+}
+
+.individual-post p a{
+    color: black;
+    font-size: 1.0em;
+}
+
+.individual-post p a:hover{
+    color: #00ff9c;
+    background-color: #000000;
+}
+
+.post-nav {
+    width: 80%;
+    text-align: center;
+}
+.post-nav p {
+    display: inline-block;
+    font-size: 1.2em;
+}
+
+.post-nav p:last-child {
+    float: right;
+}
+
+.post-nav p a{
+    color: black;
+    font-size: 1.5em;
+    font-family: 'title', 'title2', serif;
+    text-decoration: none;
+}
+
+.post-nav p a:hover{
+    color: #00ff9c;
+    background-color: #000000;
+}
 
 /*------------------------Sidebar------------*/
 .widget-top,
@@ -231,16 +370,66 @@ a#more {
 .widget-top li a,
 .widget-middle li a {
     color: #2a3430;
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.widget-top li a:hover,
+.widget-middle li a:hover {
+    color: #00ff9c;;
+    background-color: black;
 }
 
 .widget-bottom{
     margin-bottom: 30%;
 }
+
+#s {
+    width: 96%;
+}
+/*------------------------Page Sidebar------------*/
+#pageside .widget-top,
+#pageside .widget-middle,
+#pageside .widget-bottom {
+    border: 3px solid black;
+    margin-top: 30%;
+    margin-right:30%;
+}
+
+/*------------------------404 Page------------*/
+#error-top {
+    margin-top: 2%;
+    padding-left: 7%;
+    margin-bottom: 10%;
+}
+#error-top h2 {
+    font-family: 'title', 'title2', sans-serif;
+    font-size: 3.5em;
+}
+
+#error-top h3 {
+    font-family: 'title', 'title2', serif;
+    font-size: 2.0em;
+}
+#errorside .widget-top,
+#errorside .widget-middle,
+#errorside .widget-bottom {
+    border: 3px solid black;
+    margin-top: 30%;
+    margin-right:30%;
+}
+
+/*------------------------Posts Sidebar------------*/
+#postside .widget-top,
+#postside .widget-middle,
+#postside .widget-bottom {
+    border: 3px solid black;
+    margin-top: 30%;
+    margin-right:30%;
+}
 /*-------------Footer-----------*/
 footer {
     background-color: #00ff9c;
-    height: 370px;
+    height: 390px;
     padding-top: 10%;
 }
 
@@ -262,12 +451,13 @@ footer h1 a:hover {
 }
 
 footer h3{
-    font-size: 1.0em;
+    font-size: 1.5em;
     color: #000000;
     font-family: 'title', 'title2', serif;
     text-align: center;
     padding-top: 4%;
     letter-spacing: 6px;
+    font-weight: bolder;
 }
 
 footer form {
