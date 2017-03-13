@@ -2,10 +2,11 @@
 
 <!-- Begin Section Container -->
     <section class="row">
-        <div class="eight columns">
+        <div class="eight columns" id="about">
 
         <!-- BEGIN LOOP -->
-        			<?php
+
+                    <?php
         			if ( have_posts() ) {
         			    while ( have_posts() ) {
         			        the_post(); ?>
@@ -17,10 +18,11 @@
         			    } // end while
         			} // end if
         			?>
+
         <!-- END LOOP -->
 
         </div>
-        <div class="four columns">
+        <div class="four columns" id="pageside">
             <?php get_sidebar(); ?>
         </div>
     </section>
