@@ -5,14 +5,16 @@ get_header(); ?>
 
 	<div class="row">
 		<div class="eight columns">
-			<h1>Not Found</h1>
-			<h2>This is somewhat embarrassing, isn't it?</h2>
-			<p>It looks like nothing was found at this location. Maybe try a search?</p>
-
-			<h2>Try searching for what you need:</h2>
-			<?php get_search_form(); ?>
+            <div id="error-top">
+                <h2>Page Not Found</h2>
+    			<h3>This usually never happens, I swear!</h3>
+    			<p>It looks like nothing was found at this location. Maybe try a search?</p>
+    			<h3>Try searching for what you need:</h3>
+    			<?php get_search_form(); ?>
+            </div>
 		</div>
-		<div class="four columns">
+
+		<div class="four columns" id="errorside">
 			<?php get_sidebar(); ?>
 		</div>
 	</div>
