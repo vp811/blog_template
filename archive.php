@@ -7,7 +7,6 @@ get_header(); ?>
 	<div class="eight columns" id="posts">
         <h2>Posts</h2>
     		<?php if ( have_posts() ) : ?>
-
     			<?php
     			// The Loop
     			while ( have_posts() ) : the_post();?>
