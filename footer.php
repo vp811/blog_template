@@ -4,7 +4,9 @@
                         <h1><a href="<?php $url = home_url('/'); echo $url; ?>">
                             <?php bloginfo('name'); ?></a></h1>
                         <h3><?php bloginfo('description'); ?></h3>
-                    <?php dynamic_sidebar('footer-one'); ?>
+                    <div id="searchbar-footer"
+                        <?php dynamic_sidebar('footer-one'); ?>
+                    </div>
                 </div>
             </div>
 
