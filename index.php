@@ -13,7 +13,7 @@
                                 <div class="posts">
                                     <div class="background-post">
                                         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-                                        <h4><?php the_date(); ?></h4>
+                                        <h4><?php the_time('F j, Y'); ?></h4>
                                     </div>
                                 <?php
                                     if ( has_post_thumbnail() ) {
@@ -30,6 +30,7 @@
         			?>
         <!-- END LOOP -->
         </div>
+
         <div class="four columns">
             <?php get_sidebar(); ?>
         </div>
